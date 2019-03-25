@@ -33,7 +33,7 @@ class Tree(object):
 
     def front_traverse(self, root):
         """利用递归实现树的先序遍历"""
-        if root == None:
+        if root is None:
             return
         print root.ele,
         self.front_traverse(root.left)
@@ -41,7 +41,7 @@ class Tree(object):
 
     def middle_traverse(self, root):
         """利用递归实现树的中序遍历"""
-        if root == None:
+        if root is None:
             return
         self.middle_traverse(root.left)
         print root.ele,
@@ -123,7 +123,6 @@ if __name__ == '__main__':
     tree = Tree()          #新建一个树对象
     for ele in eles:
         tree.add(ele)           #逐个添加树的节点
-
     print '队列实现层次遍历:'
     tree.level_queue(tree.root)
 

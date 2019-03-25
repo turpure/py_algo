@@ -19,7 +19,8 @@ def longest_non_repeat_v1(string):
     j = 0
     for i in range(len(string)):
         if string[i] in dict:
-            j = max(dict[string[i]], j)
+            # j = max(dict[string[i]], j)
+            j = dict[string[i]]
         dict[string[i]] = i + 1
         max_length = max(max_length, i - j + 1)
     return max_length
@@ -42,3 +43,4 @@ def longest_non_repeat_v2(string):
             max_len = max(max_len, index - start + 1)
         used_char[char] = index
     return max_len
+

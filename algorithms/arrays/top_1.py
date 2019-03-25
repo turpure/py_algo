@@ -35,4 +35,4 @@ def top_1(arr):
 
 
 if __name__ == '__main__':
-    print top_1([7, 1, 1, 3, 3])
+    print(top_1([7, 1, 1, 3, 3]))

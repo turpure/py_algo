@@ -45,4 +45,4 @@ def max_ones_index(arr):
 
 if __name__ == '__main__':
     test = [1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1]
-    print max_ones_index(test)
+    print(max_ones_index(test))

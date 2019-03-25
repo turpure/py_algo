@@ -50,4 +50,4 @@ def three_sum(array):
 
 if __name__ == '__main__':
     numbers = [-1, 0, 1, 2, -1, -4]
-    print three_sum(numbers)
+    print(three_sum(numbers))

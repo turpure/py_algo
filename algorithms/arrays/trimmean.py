@@ -20,9 +20,8 @@ def trim_mean(arr, per):
     arr = arr[neg_val:len(arr)-neg_val]
     for i in arr:
         cal_sum += i
-    #print(cal_sum, len(arr))
-        return cal_sum/len(arr)
+    return cal_sum/len(arr)
 
 
 if __name__ == "__main__":
-    print trim_mean([7, 5, 4, 10], 300)
+    print(trim_mean([7, 5, 4, 10], 300))

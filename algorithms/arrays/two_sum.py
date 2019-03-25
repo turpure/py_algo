@@ -26,4 +26,4 @@ def two_sum(array, target):
 
 if __name__ == '__main__':
     ret = two_sum([11, 2, 7, 15], 9)
-    print ret
+    print(ret)

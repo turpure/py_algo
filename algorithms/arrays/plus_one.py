@@ -50,4 +50,4 @@ def plus_one_v3(num_arr):
 
 if __name__ == '__main__':
     num = [1, 9, 9]
-    print plus_one_v1(num)
+    print(plus_one_v1(num))

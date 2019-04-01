@@ -1,0 +1,41 @@
+{
+  "include": [
+      "algorithms"
+  ],
+  "exclude": [
+      
+  ],
+  "typingsPath": "algorithms/arrays",
+
+  "reportTypeshedErrors": false,
+  "reportMissingImports": true,
+
+  "pythonVersion": "3.6",
+  "pythonPlatform": "Windows",
+
+  "executionEnvironments": [
+    {
+      "root": "algorithms/arrays",
+      "pythonVersion": "3.5",
+      "pythonPlatform": "Windows",
+      "extraPaths": [
+      ]
+    },
+    {
+      "root": "algorithms/arrays",
+      "pythonVersion": "3.0",
+      "extraPaths": [
+      ]
+    },
+    {
+      "root": "src/tests",
+      "extraPaths": [
+        "src/tests/e2e",
+        "src/sdk"
+      ]
+    },
+    {
+      "root": "src"
+    }
+  ]
+}

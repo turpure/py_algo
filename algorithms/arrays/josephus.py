@@ -21,5 +21,5 @@ def josephus(int_list, skip):
 
 
 if __name__ == '__main__':
-    for ele in josephus(range(10), 4):
+    for ele in josephus(list(range(10)), 4):
         print(ele)
